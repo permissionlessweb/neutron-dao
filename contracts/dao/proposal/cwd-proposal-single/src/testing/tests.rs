@@ -62,8 +62,8 @@ struct CommonTest {
     proposal_id: u64,
 }
 
-pub(crate) fn no_init<BankT, CustomT, WasmT, StakingT, DistrT, IbcT, GovT>(
-    _: &mut Router<BankT, CustomT, WasmT, StakingT, DistrT, IbcT, GovT>,
+pub(crate) fn no_init<BankT, CustomT, WasmT, StakingT, DistrT, IbcT, GovT, Stargate>(
+    _: &mut Router<BankT, CustomT, WasmT, StakingT, DistrT, IbcT, GovT, Stargate>,
     _: &dyn Api,
     _: &mut dyn Storage,
 ) {

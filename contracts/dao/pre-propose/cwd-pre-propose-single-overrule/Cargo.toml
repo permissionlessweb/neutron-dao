@@ -18,7 +18,7 @@ library = []
 [dependencies]
 cosmwasm-std = { version = "1.3.0" }
 cw2 = "1.1.0"
-cw-storage-plus = "1.1.0"
+cw-storage-plus = "1.2.0"
 serde = { version = "1.0.175", default-features = false, features = ["derive"] }
 cwd-pre-propose-base = { version = "*", path = "../../../../packages/cwd-pre-propose-base" }
 cwd-voting = { path = "../../../../packages/cwd-voting" }
@@ -33,7 +33,7 @@ cwd-proposal-single = { version = "*", path = "../../../../contracts/dao/proposa
 
 [dev-dependencies]
 cosmwasm-schema = "1.3.0"
-cw-utils = { version = "1.0.1" }
+cw-utils = { version = "1.0.3" }
 cwd-proposal-single = { path = "../../proposal/cwd-proposal-single" }
 cwd-core = { path = "../../cwd-core" }
 cwd-voting = { path = "../../../../packages/cwd-voting" }

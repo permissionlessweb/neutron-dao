@@ -25,8 +25,8 @@ schemars = "0.8.8"
 
 [dev-dependencies]
 cosmwasm-schema = "1.3.0"
-cw-multi-test = "0.16.5"
-cw-utils = { version = "1.0.1" }
+cw-multi-test = "1.2.0"
+cw-utils = { version = "1.0.3" }
 cw4-group = "1.1.0"
 cw20 = "1.1.0"
 cw20-base = "1.1.0"

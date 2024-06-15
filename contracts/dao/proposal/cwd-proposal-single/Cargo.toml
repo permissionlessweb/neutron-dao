@@ -18,9 +18,9 @@ library = []
 [dependencies]
 cosmwasm-schema = { version = "1.3.0" }
 cosmwasm-std = { version = "1.3.0", features = ["ibc3"] }
-cosmwasm-storage = { version = "1.3.0" }
-cw-storage-plus = "1.1.0"
-cw-utils = { version = "1.0.1" }
+cosmwasm-storage = { version = "1.5.2" }
+cw-storage-plus = "1.2.0"
+cw-utils = { version = "1.0.3" }
 cw2 = "1.1.0"
 cw20 = "1.1.0"
 cw3 = "1.1.0"
@@ -45,7 +45,7 @@ voting-v1 = { package = "voting", version = "0.1.0", git = "https://github.com/D
 
 [dev-dependencies]
 cw-denom = { path = "../../../../packages/cw-denom" }
-cw-multi-test = "0.16.5"
+cw-multi-test = "1.2.0"
 cw20-base = "1.1.0"
 cw4 = "1.1.0"
 cw4-group = "1.1.0"
